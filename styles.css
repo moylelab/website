@@ -12,7 +12,7 @@
 
 /* Page basics (move your existing rules here) */
 * { box-sizing: border-box; }
-body { margin:0; background:var(--bg); color:var(--muted); font-family: Tahoma, sans-serif; line-height:1.6; }
+body { margin:0; background:var(--bg); color:var(--muted); font-family: Calibri, sans-serif; line-height:1.6; }
 
 /* Header layout: title/tagline left, nav right */
 header {
@@ -22,7 +22,7 @@ header {
   gap: 1rem;
   padding: 1rem 1.25rem;
   background: var(--panel-strong);
-  color: var(--muted);
+  color: #48494B;
 }
 
 .header-left {
@@ -31,7 +31,7 @@ header {
   gap: 0.4rem;
 }
 
-h1 { margin: 0; font-size: clamp(2.25rem,4vw,3.3rem); line-height:1.1; color:inherit; font-weight:300; background:none; display:inline-block; padding:0; }
+h1 { margin: 0; font-size: clamp(2rem,3vw,2.5rem); line-height:1.1; color:var(--muted); font-weight:150; background:none; display:inline-block; padding:0; }
 
 .tagline { margin: 0.5rem 0 1rem; font-size: clamp(1.2rem,2vw,1.8rem); line-height:1.35; color:inherit; font-weight:500; background:none; display:inline-block; padding:0; }
 
