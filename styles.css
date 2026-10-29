@@ -17,7 +17,7 @@ body { margin:0; background:var(--bg); color:var(--muted); font-family: Calibri,
 /* Header layout: title/tagline left, nav right */
 header {
   display: flex;
-  align-items: center;
+  align-items: flex-end;
   justify-content: space-between;
   gap: 1rem;
   padding: 1rem 1.25rem;
