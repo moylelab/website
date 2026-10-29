@@ -79,11 +79,10 @@ nav { margin: 0; }
   background-color: #ffffff;
 }
 
-.content img {
-  max-width: 100%;
+.content .about-row img {
+  flex: 0 0 30%;
+  max-width: 30%;
   height: auto;
-  display: block;
-  margin: 20px 0;
 }
 
 .news li {
@@ -119,7 +118,10 @@ nav { margin: 0; }
     align-items: stretch;
   }
 
-  .about-row img {
+  @media (max-width: 700px) {
+  .content .about-row img {
+    flex-basis: auto;
+    width: 100%;
     max-width: 100%;
   }
 }
