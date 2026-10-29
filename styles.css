@@ -22,7 +22,7 @@ header {
   gap: 1rem;
   padding: 1rem 1.25rem;
   background: var(--panel-strong);
-  color: #fff;
+  color: var(--muted);
 }
 
 .header-left {
