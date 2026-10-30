@@ -78,19 +78,17 @@ nav { margin: 0; }
 .right {flex: 0 0 40%;
   background-color: #ffffff;
 }
-.split h2 {
-  display: block;
-  width: 100%;
-  box-sizing: border-box;
-}
+
 .split h2 {
   margin: 0;
   font-size: clamp(2rem, 3vw, 2.5rem);
   line-height: 1.1;
   color: var(--muted);
   font-weight: 400;
-  background: none;
-  display: inline-block;
+  background: var(--panel);
+ display: block;
+  width: 100%;
+  box-sizing: border-box;
   padding: 0;
 }
 .content .about-row img {
