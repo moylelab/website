@@ -146,7 +146,8 @@ nav { margin: 0; }
 
 .person-card img {
   display: block;
-  width: 50%;
+  width: 100%;
+  max-width: 220px;
   aspect-ratio: 1;
   object-fit: cover;
 }
