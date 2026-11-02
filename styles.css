@@ -138,7 +138,13 @@ nav { margin: 0; }
   }
 }
 
- .person-card {
+ .grad-students-grid {
+  display: grid;
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+  gap: 2rem;
+}
+
+.person-card {
   display: flex;
   align-items: flex-start;
   gap: 1rem;
@@ -154,4 +160,10 @@ nav { margin: 0; }
 
 .person-info {
   min-width: 0;
+}
+
+@media (max-width: 600px) {
+  .grad-students-grid {
+    grid-template-columns: 1fr;
+  }
 }
