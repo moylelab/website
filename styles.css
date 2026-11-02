@@ -163,9 +163,9 @@ nav { margin: 0; }
     grid-template-columns: 1fr;
   }
 }
-
-    .grad-students-grid {
+.content .grad-students-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
 }
+    
