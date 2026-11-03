@@ -162,7 +162,7 @@ h2 + p {
 }
 
 @media (max-width: 600px) {
-  .grad-students-grid {
+  .students-grid {
     grid-template-columns: 1fr;
   }
 }
