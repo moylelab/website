@@ -134,7 +134,9 @@ nav { margin: 0; }
     max-width: 100%;
   }
 }
-
+h2 + p {
+  margin-top: 1rem;
+}
 .grad-students-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
