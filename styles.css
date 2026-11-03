@@ -135,9 +135,9 @@ nav { margin: 0; }
   }
 }
 h2 + p {
-  margin-top: 1rem;
+  margin-top: 2rem;
 }
-.grad-students-grid {
+.students-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
@@ -146,14 +146,14 @@ h2 + p {
 .person-card {
   display: flex;
   align-items: flex-start;
-  gap: 1rem;
+  gap: 2rem;
 }
 
 .person-card img {
   flex: 0 0 200px;
   width: 200px;
   height: 200px;
-  max-width: 250px;
+  max-width: auto;
   object-fit: cover;
 }
 
