@@ -1,4 +1,3 @@
-body { outline: 5px solid red !important; }
     :root{
   --bg: #f4f9fc;
   --panel: #b9dff4;
@@ -112,7 +111,6 @@ nav { margin: 0; }
 .about-row p {
   flex: 1;
 }
-
 .about-row img {
   flex: 0 0 25%;
   max-width: 25%;
@@ -130,14 +128,14 @@ nav { margin: 0; }
     align-items: stretch;
   }
 
-  @media (max-width: 700px) {
-  .content .about-row img {
+  .about-row img {
     flex-basis: auto;
     width: 100%;
     max-width: 100%;
   }
 }
-    .grad-students-grid {
+
+.grad-students-grid {
   display: grid;
   grid-template-columns: repeat(2, minmax(0, 1fr));
   gap: 2rem;
@@ -166,10 +164,4 @@ nav { margin: 0; }
     grid-template-columns: 1fr;
   }
 }
-
-    .grad-students-grid {
-  outline: 4px solid red;
-  display: grid !important;
-  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
-}
-    
+   
