@@ -166,4 +166,10 @@ nav { margin: 0; }
     grid-template-columns: 1fr;
   }
 }
+
+    .grad-students-grid {
+  outline: 4px solid red;
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+}
     
