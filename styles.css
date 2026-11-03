@@ -1,4 +1,4 @@
-
+body { outline: 5px solid red !important; }
     :root{
   --bg: #f4f9fc;
   --panel: #b9dff4;
