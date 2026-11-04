@@ -175,4 +175,19 @@ h2 + p {
   background: var(--panel-strong);
   color: #48494B;
 }
-   
+
+.research-dropdown {
+  margin: 1rem 0;
+  padding: 1rem;
+  background: var(--panel);
+  border-radius: 6px;
+}
+
+.research-dropdown summary {
+  cursor: pointer;
+  font-weight: 600;
+}
+
+.research-dropdown p {
+  margin-bottom: 0;
+}
