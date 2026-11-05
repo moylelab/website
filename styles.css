@@ -191,3 +191,9 @@ h2 + p {
 .research-dropdown p {
   margin-bottom: 0;
 }
+
+.research-dropdown-items {
+  display: flex;
+  align-items: flex-start;
+  gap: 2rem;
+}
