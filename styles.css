@@ -197,3 +197,9 @@ h2 + p {
   align-items: flex-start;
   gap: 2rem;
 }
+@media (max-width: 700px) {
+  .research-dropdown-items {
+    flex-direction: column;
+    gap: 1rem;
+  }
+}
