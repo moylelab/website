@@ -168,8 +168,8 @@ h2 + p {
 }
 
 footer {
-background: #80C8EB;
-font-size: 10px;
+background: var(--panel-strong);
+font-size: 14px;
 line-height: normal;
 padding-top: 10px;
 padding-bottom: 10px;
