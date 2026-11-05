@@ -167,14 +167,18 @@ h2 + p {
   }
 }
 
-.footer {
-  align-items: center;
-  justify-content: space-between;
-  gap: 1rem;
-  padding: 1rem 1.25rem;
-  background: var(--panel-strong);
-  color: #48494B;
+footer {
+background: #80C8EB;
+font-size: 10px;
+line-height: normal;
+padding-top: 10px;
+padding-bottom: 10px;
+text-align: center;
+margin-left: 0;
+margin-right: 0;
+width: 100%;
 }
+
 
 .research-dropdown {
   margin: 1rem 0;
