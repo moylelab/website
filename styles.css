@@ -203,14 +203,14 @@ width: 100%;
 }
 
 .research-row figure {
-  width: 250px;
+  width: 300px;
   margin: 0;
   text-align: center;
 }
 
 .research-row img {
   display: block;
-  width: 200px;
+  width: 250px;
   height: auto;
 }
 
