@@ -197,9 +197,9 @@ width: 100%;
 
 .research-row {
   display: flex;
-    font-size: 20px;
+    font-size: 16px;
   gap: 16px;
-    align-items: center;
+    justify-content: center;
 }
 
 .research-row figure {
@@ -216,6 +216,7 @@ width: 100%;
 
 .research-row figcaption {
   margin-top: 8px;
+    font-size: 12px;
 }
 @media (max-width: 700px) {
   .research-dropdown-items {
