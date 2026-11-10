@@ -197,7 +197,9 @@ width: 100%;
 
 .research-row {
   display: flex;
+    font-size: 20px;
   gap: 16px;
+    align-items: center;
 }
 
 .research-row figure {
@@ -209,8 +211,7 @@ width: 100%;
 .research-row img {
   display: block;
   width: 200px;
-  height: 200px;
-  max-width: auto;
+  height: auto;
 }
 
 .research-row figcaption {
