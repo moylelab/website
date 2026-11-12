@@ -189,10 +189,12 @@ width: 100%;
 .research-dropdown summary {
   cursor: pointer;
   font-weight: 600;
+    background: var(--bg);
 }
 
 .research-dropdown p {
   margin-bottom: 0;
+    background: var(--bg);
 }
 
 .research-row {
@@ -200,12 +202,14 @@ width: 100%;
     font-size: 20px;
   gap: 16px;
     justify-content: center;
+    background: var(--bg);
 }
 
 .research-row figure {
   width: 300px;
   margin: 0;
   text-align: center;
+    background: var(--bg);
 }
 
 .research-row img {
