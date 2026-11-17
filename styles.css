@@ -43,8 +43,8 @@ nav { margin: 0; }
 }
 
 .image-banner img {
-  width: 5rem;
-  height: 3.5rem;
+  width: 10rem;
+  height: 7rem;
   object-fit: cover;
   border-radius: 6px;
 }
