@@ -49,7 +49,12 @@ nav { margin: 0; }
   border-radius: 6px;
 }
 
-
+@media (max-width: 700px) {
+  .image-banner {
+    flex-direction: column;
+    align-items: flex-end;
+  }
+}
 .nav-list {
   list-style: none;
   display: flex;
@@ -67,7 +72,12 @@ nav { margin: 0; }
 
 .nav-list a { font-size: clamp(1.2rem,1.5vw,1.3rem); color: inherit; text-decoration: none; }
 
-    
+    @media (max-width: 700px) {
+  header { flex-direction: column; align-items: flex-start; }
+  .nav-list { flex-direction: column; width: 100%; }
+  .nav-list li { width: 100%; text-align: left; }
+}
+
 .split-container {
   display: flex;
   width: 100%;
