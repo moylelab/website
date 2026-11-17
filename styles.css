@@ -58,6 +58,7 @@ nav { margin: 0; }
   .nav-list { flex-direction: column; width: 100%; }
   .nav-list li { width: 100%; text-align: left; }
 }
+    
 .split-container {
   display: flex;
   width: 100%;
