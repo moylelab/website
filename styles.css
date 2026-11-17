@@ -48,6 +48,12 @@ nav { margin: 0; }
   object-fit: cover;
   border-radius: 6px;
 }
+
+@media (max-width: 100px) {
+  .image-banner {
+    flex-direction: column;
+    align-items: right;
+  }
 .nav-list {
   list-style: none;
   display: flex;
