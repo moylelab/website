@@ -227,7 +227,7 @@ width: 100%;
 }
 
 .research-row figure {
-  width: 300px;
+  width: 500px;
   margin: 0;
   text-align: center;
     background: var(--bg);
@@ -240,7 +240,7 @@ width: 100%;
 }
 
 .research-row figcaption {
-  margin-top: 8px;
+  margin-top: 10px;
     font-size: 14px;
 }
 @media (max-width: 700px) {
