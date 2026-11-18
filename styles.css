@@ -139,7 +139,7 @@ nav { margin: 0; }
 
 .about-row--reverse {
   flex-direction: row-reverse;
-  background: var(--bg);
+  
 }
 
 @media (max-width: 700px) {
